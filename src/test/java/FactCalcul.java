@@ -1,18 +1,18 @@
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class FactCalcul {
 
     @Test
-    public void testFact( ){
+    public void calculFact( ){
         //Given
          Factoriel factoriel= new Factoriel();
 
          //When
-         int result = factoriel.factoriel(6);
+         int resultat = factoriel.Factoriel(6);
 
          // Then
-         assertEquals(720,result);
+         assertEquals(720,resultat);
     }
 }
